@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- * This program is building a multilingual puzzle
  * Main - main block
  * Return: 0
  */
