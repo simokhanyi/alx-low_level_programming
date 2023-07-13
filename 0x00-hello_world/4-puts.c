@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- * This program prints multilingual puzzle
  * main - main block
  * return: 0
  */
