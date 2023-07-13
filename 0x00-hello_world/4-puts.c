@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * This program is building a multilingual puzzle
- * main - main block
+ * Main - main block
  * Return: 0
  */
 int main(void)
