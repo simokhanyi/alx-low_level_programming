@@ -1,8 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
- * This program prints multilingual puzzle
- */
+/*This program prints multilingual puzzle*/
 
 int main()
 {
