@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
- * Main: main block
+ * Main - main block
+ *
+ * Description: multilingual puzzle
+ * @parameter: using puts instead
+ *
  * Return: 0
  */
 int main(void)
