@@ -19,7 +19,7 @@ int main(void)
 	else
 	{
 	putchar(lowerCase);
-	upperCase += 1;
+	lowerCase += 1;
 	}
 	putchar ('\n');
 	return (0);
