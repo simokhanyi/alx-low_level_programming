@@ -1,6 +1,6 @@
 #include  <stdio.h>
 
-void printIntro (void) __attribute__ ((constructor));
+void printIntro(void) __attribute__ ((constructor));
 
 /**
  * printIntro - prints a sentence before the main
