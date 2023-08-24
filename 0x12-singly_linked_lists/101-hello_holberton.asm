@@ -13,7 +13,3 @@ main:
     call printf
     pop rbp
 
-    ; Exit the program
-    mov rax, 60         ; syscall: exit
-    xor rdi, rdi        ; status: 0
-    syscall

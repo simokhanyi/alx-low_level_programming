@@ -1,10 +1,8 @@
 #include  <stdio.h>
 
-void first(void) __attribute__ ((constructor));
-
 /**
  * first - prints a sentence before the main
- * @printIntro: print a sentance
+ * printIntro - this function is responsible for displaying a sentence
  * function is executed
  */
 
