@@ -12,9 +12,9 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
+	ssize_t bytesRead, bytesWritten;
 	FILE *file = fopen(filename, "r");
 	char *buffer = (char *)malloc(letters + 1);
-	ssize_t bytesRead, bytesWritten;
 
 	if (filename == NULL)
 	{
