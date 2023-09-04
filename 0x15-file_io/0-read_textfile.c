@@ -24,12 +24,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-	bytesRead = fread(buffer, 1, letters, file);
 	if (buffer == NULL)
 	{
 		fclose(file);
 		return (0);
 	}
+	bytesRead = fread(buffer, 1, letters, file);
 	if (bytesRead == -1)
 	{
 		fclose(file);
