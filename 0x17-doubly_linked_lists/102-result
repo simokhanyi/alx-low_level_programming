@@ -1,0 +1,47 @@
+#include "lists.h"
+
+/**
+ * find_largest_palindrome - finds largest palindrome
+ *
+ *
+ * Return: 0 if it succeeded, NULL if it failed
+ */
+
+int find_largest_palindrome(void)
+{
+	int largest_palindrome = 0;
+
+	for (int i = 100; i < 1000; i++)
+	{
+		for (int j = 100; j < 1000; j++)
+		{
+			int product = i * j;
+			if (is_palindrome(product) && product > largest_palindrome)
+			{
+				largest_palindrome = product;
+			}
+		}
+	}
+	return (largest_palindrome);
+}
+
+/**
+ * main - entry point
+ *
+ *
+ * Return: 1 if it succeeded, -1 if it failed
+ */
+
+int main(void)
+{
+	int result = find_largest_palindrome();
+
+	FILE *file = fopen("102-result", "w");
+
+	if (file != NULL)
+	{
+		fprintf(file, "%d", result);
+		fclose(file);
+	}
+	return (0);
+}
