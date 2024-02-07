@@ -39,5 +39,5 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 		prev++;
 		current = current->next;
 	}
-	return(NULL);
+	return (NULL);
 }
